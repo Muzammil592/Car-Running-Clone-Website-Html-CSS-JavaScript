@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.digitaltrends.com/wp-content/uploads/2019/01/lamborghini_huracan_evo_street_2.jpg?resize=625%2C417&p=1" type="image/x-icon">
+    <title>Lambo Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sky">
+            <div class="t">
+
+            </div>
+            <div class="track">
+
+            </div>
+            <div class="car">
+                <div class="wl">
+                      <img src="car_wheel_left.png" width="70px" height="70px" alt="" srcset="">
+                </div>
+                <div class="wr">
+                       <img src="car_wheel_right.png" width="70px" height="70px" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var audio = document.createElement('audio');
+         audio.setAttribute('src', 'sound.mp3');
+         audio.loop = true;
+        document.body.appendChild(audio); // Append the audio element to the document body
+        audio.play();
+
+    </script>
+</body>
+</html>
